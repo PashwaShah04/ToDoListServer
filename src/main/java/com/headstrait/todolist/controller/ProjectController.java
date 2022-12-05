@@ -24,7 +24,7 @@ import com.headstrait.todolist.model.ProjectRequest;
 import com.headstrait.todolist.services.ProjectService;
 import com.headstrait.todolist.services.UserService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 @RestController
 @RequestMapping("/todolist")
 public class ProjectController {

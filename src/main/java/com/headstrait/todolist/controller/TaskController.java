@@ -27,7 +27,7 @@ import com.headstrait.todolist.model.UpdateTaskRequest;
 import com.headstrait.todolist.services.TaskService;
 import com.headstrait.todolist.services.UserService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 @RestController
 @RequestMapping("/todolist")
 public class TaskController {

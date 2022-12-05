@@ -28,7 +28,7 @@ import com.headstrait.todolist.security.service.UserDetailsImpl;
 import com.headstrait.todolist.security.service.jwt.JwtUtils;
 import com.headstrait.todolist.services.UserService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
